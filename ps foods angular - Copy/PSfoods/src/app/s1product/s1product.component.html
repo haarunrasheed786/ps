@@ -1,0 +1,114 @@
+
+<!-- single product -->
+<div class="single-product mt-150 mb-150">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="single-product-img">
+          <img src="../../assets/andhra%20food%20(1).png" alt="">
+
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="single-product-content">
+          <h3>Andhra Lunch</h3>
+          <p class="single-product-pricing"><span>Per box</span>99Rs </p>
+          <p>Tasty,  Spicy and tangy. Lunch box comes with delicious pappu pachadi and ghee</p>
+          <div class="single-product-form">
+            <form id="quantityform">
+              <input type="number" placeholder="0" [(ngModel)]="quantity" name="quantity">
+            </form>
+            <a routerLink="/cart" (click)="addToCart(quantity)" class="cart-btn">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end single product -->
+
+<!--&lt;!&ndash; more products &ndash;&gt;-->
+<!--<div class="more-products mb-150">-->
+<!--  <div class="container">-->
+<!--    <div class="row">-->
+<!--      <div class="col-lg-8 offset-lg-2 text-center">-->
+<!--        <div class="section-title">-->
+<!--          <h3><span class="orange-text">Related</span> Products</h3>-->
+
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--      <div class="col-lg-4 col-md-6 text-center">-->
+<!--        <div class="single-product-item">-->
+<!--          <div class="product-image">-->
+<!--            <a routerLink="s1product"><img src="../../assets/andhra food.png" alt=""></a>-->
+<!--          </div>-->
+<!--          <h3>Andhra Lunch </h3>-->
+<!--          <p class="product-price"><span>Tasty,  Spicy and tangy. Lunch box comes with delicious pappu pachadi and ghee</span>  </p>-->
+<!--          <h4>99Rs</h4>-->
+<!--          <a routerLink="cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Order Now</a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="col-lg-4 col-md-6 text-center">-->
+<!--        <div class="single-product-item">-->
+<!--          <div class="product-image">-->
+<!--            <a routerLink="s1product"><img src="../../assets/Kerala food.png" alt=""></a>-->
+<!--          </div>-->
+<!--          <h3>Kerala lunch</h3>-->
+<!--          <p class="product-price"><span>Coconut oils, rich spices and papaddams is our signature of this lunch box</span>  </p>-->
+<!--          <h4>99Rs</h4>-->
+<!--          <a routerLink="cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Order Now</a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3 text-center">-->
+<!--        <div class="single-product-item">-->
+<!--          <div class="product-image">-->
+<!--            <a routerLink="s1product"><img src="../../assets/karnataka.png" alt=""></a>-->
+<!--          </div>-->
+<!--          <h3>kannada Lunch</h3>-->
+<!--          <p class="product-price"><span>Dishes with loads of ghee, Jaggery and wide variety of baths makes this box special</span> </p>-->
+<!--          <h4>99Rs</h4>-->
+<!--          <a routerLink="cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Order Now</a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="col-lg-4 col-md-6 text-center">-->
+<!--        <div class="single-product-item">-->
+<!--          <div class="product-image">-->
+<!--            <a routerLink="s1product"><img src="../../assets/tamilnadu-food.png" alt=""></a>-->
+<!--          </div>-->
+<!--          <h3>Tamil lunch</h3>-->
+<!--          <p class="product-price"><span>Aromatic, delicious and mouth watering dishes like Sambar poriyal makes this lunch yummy</span>  </p>-->
+<!--          <h4>99Rs</h4>-->
+<!--          <a routerLink="cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Order Now</a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="col-lg-4 col-md-6 text-center">-->
+<!--        <div class="single-product-item">-->
+<!--          <div class="product-image">-->
+<!--            <a routerLink="s1product"><img src="../../assets/north indian.png" alt=""></a>-->
+<!--          </div>-->
+<!--          <h3>North Indian lunch</h3>-->
+<!--          <p class="product-price"><span>Variety of hot parathas, spicy panner and mouth watering sweets make this box special</span>  </p>-->
+<!--          <h4>99Rs</h4>-->
+<!--          <a routerLink="cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Order Now</a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="col-lg-4 col-md-6 text-center">-->
+<!--        <div class="single-product-item">-->
+<!--          <div class="product-image">-->
+<!--            <a routerLink="s1product"><img src="../../assets/veg-biryani .png" alt=""></a>-->
+<!--          </div>-->
+<!--          <h3> Veg Biryani</h3>-->
+<!--          <p class="product-price"><span>Hot sizzling and spicy dish with right mix of veggies and heart content of ghee makes this extra special</span>  </p>-->
+<!--          <h4>99Rs</h4>-->
+<!--          <a routerLink="cart" class="cart-btn"><i class="fas fa-shopping-cart"></i> Order Now</a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+<!--&lt;!&ndash; end more products &ndash;&gt;-->
